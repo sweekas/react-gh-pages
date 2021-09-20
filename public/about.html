@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RamziAbuAklien</title>
+
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="aboutpage.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+    
+
+
+  <header class="mb-auto">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <h3 class="ramzinav float-md-start mb-0">RamziAbuAklien</h3>
+     <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+        <a class="nav-link" href="./about.html">About</a>
+        <a class="nav-link" href="./index.html">BMI</a>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <img src="../imges/ramiz.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false alt=">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Yeap! That Me</h1>
+            <p>so my name is ramzi am from palestine earlier i finished web development course and i am trying to build up my skill by building website.</p>
+            <p><a class="btn btn-lg btn btn-outline-light" href="index.html">Home</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+       
+        <img  src="data:image/jpeg;base64,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" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false alt=">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 >Gaming.</h1>
+            <p >gaming is one of my best thing that i get fun when i have free time and you can play cross the world with your friends.</p>
+            <p><a class="btn btn-lg btn btn-outline-light" href="https://discord.gg/XrXE63qm">My Discord</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        
+        <img src="../imges/Automotive-Lights-Explained-01.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false alt=">
+        
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Cars.</h1>
+            <p class="gameinph1">I love tune cars and my best car is ofcourse the monsters toyota supra.</p>
+            <p><a class="btn btn-lg btn btn-outline-light" href="https://en.wikipedia.org/wiki/Toyota_Supra">About Supra</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+ 
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <h1 style="text-align: center;">Those thing what website build of.</h1>
+    <div class="row">
+      <div class="col-lg-4">
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2>HTML5</h2>
+        <p>Hypertext Markup Language revision 5 (HTML5) is markup language for the structure and presentation of World Wide Web contents.</p>
+        <p><a class="btn btn-secondary" href="https://www.w3schools.com/html/default.asp">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="../imges/CSS.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2>CSS</h2>
+        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+        <p><a class="btn btn-secondary" href="https://www.w3schools.com/css/">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJiFnOZaa6dh6D5HECyaV8a-Tqcc-Hqacr9Q&usqp=CAU" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <h2>JS</h2>
+        <p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive.</p>
+        <p><a class="btn btn-secondary" href="https://www.w3schools.com/js/default.asp">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">JavaScript. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">JavaScript is very hard language that my brain cant understand but ofcourse more you struggle to learn more you get better so <span class="NGU">Never Give Up</span>.</p>
+      </div>
+      <div class="col-md-5">
+        <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img src="https://images.ctfassets.net/yr4qj72ki4ky/legacyBlogPost77Thumbnail/cd4783ad7b35efc4367166a570a9952e/bigstock-Real-Java-Script-Code-Developi-217215433.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">REACT. <span class="text-muted">What is react?!!</span></h2>
+        <p class="lead">lets say react its a tune version of javascript its help you to build powerfull website.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh3K4FkrVffpQJj8qiv1IiYe_RyklNQKZzD9SQ9sKf8O1vdT9zjdtv3lptTfV3ia9O1gY&usqp=CAU" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Bootstrap. <span class="text-muted">Dont Style Without Bootstrap.</span></h2>
+        <p class="lead">Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites(i use bootstrap).</p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+  </footer>
+</main>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+
+      
+  </body>
+</html>
